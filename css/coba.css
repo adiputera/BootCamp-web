@@ -3,47 +3,75 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #777;
 }
 
 li {
     float: left;
     border-right: 1px solid #bbb;
-}
-
-li a {
-    display: block;
+	display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+li:hover {
     background-color: #fff;
     color:#111;
 }
 
-* {
-    box-sizing: border-box;
+body{
+	margin: 0;
+	padding: 0;
 }
-
-.column {
-    float: left;
-    padding: 10px;
+#container{
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:50px;
 }
-
-.left {
-  width: 20%;
+#search-box{
+	background-color: black;
+	color:white;
+	position:fixed;
+	width:100%;
+	line-height:50px;
+	top:0; /*untuk nempel ke atas*/
 }
-
-.right {
-  width: 80%;
+#search-box #box-input{
+	background-color:#f1f1f1;
+	padding-left:50px;
+	text-align:center;
 }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#header{
+	width:100%; /*<!--100% dari lebar container 1000px-->*/
+	padding:10px;
+	margin-bottom:10px;
 }
-
+#nav{
+	float:left;
+	background-color:brown;
+	width:25%;
+}
+#content{
+	float:left;
+	background-color:#005ce6;
+	width:75%;
+	overflow:auto;
+	padding:10px;
+	box-sizing: border-box;
+	min-height:100px;
+	margin-bottom:10px;
+}
+#footer{ /*id, hanya bisa dipakai di satu tempat*/
+	line-height: 50px;
+	text-align:center;
+	background-color:silver;
+}
+.customFont{ /*class, bisa dipakai di banyak tempat*/
+	color:red;
+}
+.fontStyle{
+	font-style:italic;
+}
