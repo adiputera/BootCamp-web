@@ -3,31 +3,42 @@
 	<head>
 		<title>template</title>
 		<style type="text/css">
-			div{
+			body{
 				margin: 0;
 				padding: 0;
 			}
+			#container{
+				width:1000px;
+				margin-right:auto;
+				margin-left:auto;
+			}
 			#header{
+				width:100%; /*<!--100% dari lebar container 1000px-->*/
+				height:100px;
 				background-color:blue;
 			}
 			#nav{
+				float:left;
 				background-color:brown;
 			}
 			#content{
+				float:left;
 				background-color:red;
 			}
 			#footer{
+				text-align:center;
 				background-color:silver;
 			}
 			
 		</style>
 	</head>
 	<body>
-		<div id="wrapper">
-			<div id="header">header</div>
-			<div id="nav">navigasi</div>
-			<div id="content">hallo world</div>
-			<div id="footer">footer</div>
-		</div>
+		<div id="container">
+			<div id="header">header</div><!--end header-->
+			<div id="nav">navigasi</div><!--end nav-->
+			<div id="content">hallo world</div><!--end content-->
+			<div style="clear:both"></div>
+			<div id="footer">footer</div><!--end footer-->
+		</div><!--end container-->
 	</body>
 </html>
