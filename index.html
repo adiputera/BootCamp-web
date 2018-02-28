@@ -21,6 +21,9 @@
 				line-height:50px;
 				top:0; /*untuk nempel ke atas*/
 			}
+			#search-box #box-input{
+				background-color:red;
+			}
 			#header{
 				width:100%; /*<!--100% dari lebar container 1000px-->*/
 				height:100px;
@@ -58,9 +61,11 @@
 	</head>
 	<body>
 		<div id="search-box">
-			<span>Search<span> : 
-			<input type="text" placeholder="search by name">
-			<button>Search</button>
+			<div id="box-input">
+				<span style="font-style:bold;">Search<span> : 
+				<input type="text" placeholder="search by name">
+				<button>Search</button>
+			</div>
 		</div>
 		
 		<div id="container">
