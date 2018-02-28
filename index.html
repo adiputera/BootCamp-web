@@ -34,21 +34,24 @@
 				min-height:100px;
 				margin-bottom:10px;
 			}
-			#footer{
+			#footer{ /*id, hanya bisa dipakai di satu tempat*/
 				line-height: 50px;
 				text-align:center;
 				background-color:silver;
+			}
+			.customFont{ /*class, bisa dipakai di banyak tempat*/
+				color:red;
 			}
 			
 		</style>
 	</head>
 	<body>
 		<div id="container">
-			<div id="header">header</div><!--end header-->
+			<div id="header" class="customFont">header</div><!--end header-->
 			<div id="nav">navigasi</div><!--end nav-->
 			<div id="content">hallo world</div><!--end content-->
 			<div style="clear:both"></div>
-			<div id="footer">footer</div><!--end footer-->
+			<div id="footer" class="customFont">footer</div><!--end footer-->
 		</div><!--end container-->
 	</body>
 </html>
