@@ -72,12 +72,16 @@ body{
 	box-sizing:border-box;
 	padding:5px;
 	float:left;
+	margin-top:10px;
 }
 $nav .isi-judul{
 	width:75%;
 	box-sizing:border-box;
 	padding:5px;
+	padding-left:10px;
 	float:left;
+	margin-top:10px;
+	line-height:50px;
 }
 .nav2{
 	padding:10px;
@@ -114,6 +118,7 @@ $nav .isi-judul{
 #content-teks{
 	width:25%;
 	float:left;
+	
 }
 #content-bawah{
 	box-sizing: border-box;
@@ -132,6 +137,7 @@ $nav .isi-judul{
 .judul-content{
 	background-color:#005ce6;
 	line-height:35px;
+	color:white;
 }
 #content-kanan{
 	float:left;
@@ -139,6 +145,7 @@ $nav .isi-judul{
 	background-color:#005ce6;
 	padding:10px;
 	box-sizing:border-box;
+	color:white;
 }
 #headline{
 	box-sizing: border-box;
