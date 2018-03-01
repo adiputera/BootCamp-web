@@ -65,6 +65,26 @@ body{
 	color:black;
 	margin-bottom:10px;
 	margin-top:10px;
+	box-sizing:border-box;
+}
+#nav .isi-gambar{
+	width:25%;
+	box-sizing:border-box;
+	padding:5px;
+	float:left;
+}
+$nav .isi-judul{
+	width:75%;
+	box-sizing:border-box;
+	padding:5px;
+	float:left;
+}
+.nav2{
+	padding:10px;
+	padding-top:0;
+	padding-left:0;
+	box-sizing:border-box;
+	background-color:#f1f1f1;
 }
 #content{
 	float:left;
@@ -107,9 +127,11 @@ body{
 	padding-top:0;
 	padding-left:0;
 	box-sizing:border-box;
+	background-color:#f1f1f1;
 }
-#judul-content{
+.judul-content{
 	background-color:#005ce6;
+	line-height:35px;
 }
 #content-kanan{
 	float:left;
@@ -128,14 +150,14 @@ body{
 	width:25%;
 	float:left;
 	box-sizing: border-box;
-	height:150px;
+	line-height:150px;
 	text-align:center;
 }
 #headline2{
 	float:left;
 	background-color:#ff33cc;
 	width:25%;
-	height:150px;
+	line-height:150px;
 	box-sizing: border-box;
 	text-align:center;
 }
@@ -144,7 +166,7 @@ body{
 	float:left;
 	background-color:#c2f0c2;
 	width:25%;
-	height:150px;
+	line-height:150px;
 	box-sizing: border-box;
 	text-align:center;
 }
@@ -152,7 +174,7 @@ body{
 	float:left;
 	background-color:#99c2ff;
 	width:25%;
-	height:150px;
+	line-height:150px;
 	box-sizing: border-box;
 	text-align:center;
 }
