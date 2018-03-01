@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #005ce6;
+    background-color: #1b3682;
 }
 
 li {
@@ -105,7 +105,7 @@ body{
 	padding:10px;
 	box-sizing: border-box;
 	margin-right:10px;
-	background-color:#005ce6;
+	background-color:#1b3682;
 	margin-bottom:10px;
 	color:white;
 }
@@ -135,14 +135,14 @@ body{
 	background-color:#f1f1f1;
 }
 .judul-content{
-	background-color:#005ce6;
+	background-color:#1b3682;
 	line-height:35px;
 	color:white;
 }
 #content-kanan{
 	float:left;
 	width:75%;
-	background-color:#005ce6;
+	background-color:#1b3682;
 	padding:10px;
 	box-sizing:border-box;
 	color:white;
@@ -215,7 +215,7 @@ body{
 	color:white;
 	padding:10px;
 	box-sizing:border-box;
-	background-color:#005ce6;
+	background-color:#1b3682;
 }
 .customFont{ /*class, bisa dipakai di banyak tempat*/
 	color:red;
