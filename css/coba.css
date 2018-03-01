@@ -20,29 +20,6 @@ li:hover {
     background-color: #fff;
     color:#111;
 }
-ul #menu2{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-
-li .menu2{
-    float: left;
-    border-right: 1px solid #bbb;
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	background-color: #f1f1f1;
-}
-
-li .menu2:hover {
-    background-color: #fff;
-    color:#111;
-}
 
 body{
 	margin: 0;
@@ -91,6 +68,7 @@ body{
 	box-sizing:border-box;
 }
 #nav .isi-gambar{
+	background-color:#f1f1f1;
 	width:25%;
 	box-sizing:border-box;
 	padding:5px;
@@ -98,6 +76,7 @@ body{
 	margin-top:10px;
 }
 #nav .isi-judul{
+	background-color:#f1f1f1;
 	width:75%;
 	box-sizing:border-box;
 	padding:5px;
@@ -168,6 +147,31 @@ body{
 	box-sizing:border-box;
 	color:white;
 }
+#sub-content-kanan{
+	width:100%;
+}
+.content-gbr{
+	width:25%;
+	padding:10px;
+	box-sizing:border-box;
+	float:left;
+}
+.content-jdl{
+	width:75%;
+	padding:10px;
+	box-sizing:border-box;
+	float:left;
+	color:yellow;
+	height:50%;
+	font-style:bold;
+}
+.content-apa{
+	width:75%;
+	padding:10px;
+	box-sizing:border-box;
+	float:left;
+	height:50%;
+}
 #headline{
 	box-sizing: border-box;
 	margin-right:10px;
@@ -208,9 +212,10 @@ body{
 }
 
 #footer{ /*id, hanya bisa dipakai di satu tempat*/
-	line-height: 50px;
-	text-align:center;
-	background-color:silver;
+	color:white;
+	padding:10px;
+	box-sizing:border-box;
+	background-color:#005ce6;
 }
 .customFont{ /*class, bisa dipakai di banyak tempat*/
 	color:red;
