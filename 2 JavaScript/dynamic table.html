@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+var listMhs = [
+	{nama : "nama 1", nim : "1234"},
+	{nama : "nama 2", nim : "2344"}
+];
+function renderData() {
+	var tableMahasiswa = $("#table-mahasiswa");
+	$.each(listMhs, function(index, element) {
+		var nama = element.nama;
+		var nim = element.nim;
+		
+		var tr = $("<tr>");
+		var td = $("<td>");
+		td.append(nim);
+		tr.append(td);
+		
+		td = $("<td>");
+		td.append(nama);
+		tr.append(td);
+		
+		tableMahasiswa.append(tr);
+	});
+}
+</script>
+<table>
+	<thead>
+		<tr>
+			<th> NIM </th>
+			<th> Nama </th>
+	</thead>
+	<tbody id="table-mahasiswa">
+	</tbody>
+</table>
+<script>
+$(document).ready(function() {
+	renderData();
+});
+</script>
+</body>
+</html>
