@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+			$(document).ready(function(){
+				$("#tombol").click(function(){
+					var a = $("#satu").val();
+					var b = $("#dua").val();
+					var c = $("#tiga");
+					c.val(parseInt(b)*parseInt(a))
+				});
+				;
+			});
+		</script>
+		<input type = "number" id= "satu">
+		<input type = "number" id="dua">
+		<input type = "text" id="tiga" readonly>
+		<button id = "tombol">Hitung</button>
+	</body>
+</html>
